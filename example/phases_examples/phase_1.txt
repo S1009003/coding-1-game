@@ -1,6 +1,14 @@
 The goals for this phase include:
 
+<<<<<<< HEAD
 
 
 Note your decisions here so you can refer back to this later in the project
 
+=======
+ 
+
+Note your decisions here so you can refer back to this later in the project
+
+
+>>>>>>> 841aa2c (broken)
