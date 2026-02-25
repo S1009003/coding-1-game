@@ -6,12 +6,80 @@ Part I: Planning & Design (15 pts)
 * Sketch a simple plan showing how the game will work step-by-step
 
 Game Idea:
-
+Video Game Ideas:
+ Geometry dash 
+ Pac man
+frogger
+ tetris
+ Block blast
+ Candy crush
+ galaga
+ Space invaders
+ Minecraft
+ Battle royale
+ Brawl stars
+ Fork knife
+ overcooked
+ Run 1-3
+  Duck life
+ Papa’s pizzaria
+Music type game
+Piano tiles
+Hytale
+Clash royale
+Blooket
+Gimkit
+Kahoot
+Among sus
+Agario
+Slitherio
+Survivor io
+escapists
+Peak
+Celeste
+Terraria
+REPO
+KingScape
+Homescape
+Last war survival
+Clash royale
+Clash of clans
+Where's my water
+Toast simulator
+Whiteout survival 
+Evony 
+Getting over it
+Happy wheels
+Rocket league
+Rainbow six siege
+COD
+Raft
+Bee swarm simulator
+Only up
+Getting below it
+Rust 
+Halo 
+Diepio
+Holeio
+Just shapes and rhythms 
+Lethal company 
+Iron lung
+Subway surfers
 
 Game Rules:
+Player chooses a different shape, circle, or square.
+ Player will then be put into one of 3 maps
+  The player can choose between the easy, medium and hard difficulty maps
+The player can not touch any obstacles, or they will die
+Get to the end of all 3 maps to win a surprise! (Peter Griffin's face saying “You won!)
 
 
 Major Game Elements:
 
 
 Gameplay Process:
+Jump
+Auto move
+Hitboxes with spikes 
+Collision with platforms
+End goal at the end of the level
