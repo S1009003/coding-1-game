@@ -11,7 +11,3 @@ game_data = {
 # Item to find is a rflx relic 
 def draw_board(screen):
     # Print the board and all game elements using curses
-
-
-
-# Good Luck!
