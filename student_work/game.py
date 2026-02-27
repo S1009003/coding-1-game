@@ -4,7 +4,7 @@ game_data = {
     #icons
     'MENS_SYMBOL': "/1F6B9"
     'BLACK_MEDIUM_SQUARE' : "/25FC"
-    ''
+    'BLACK_UP-POINTING_DOUBLE_TRIANGLE' : "/23EB"
     
     #store curses here
 }
