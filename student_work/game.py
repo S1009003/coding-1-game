@@ -1,6 +1,9 @@
 # Write your game here
 import curses
 game_data = {
+     'width': 5,
+    'height': 5,
+    'player': {"x": 0, "y": 0, "score": 0}
      #icons
     'MENS_SYMBOL': "/1F6B9"
     'BLACK_MEDIUM_SQUARE' : "/25FC"
