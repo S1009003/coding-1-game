@@ -8,7 +8,7 @@ game_data = {
     
     #store curses here
 }
-
+# Item to find is a reflex relic 
 def draw_board(screen):
     # Print the board and all game elements using curses
 
