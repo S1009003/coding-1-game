@@ -11,7 +11,7 @@ game_data = {
     
     #store curses here
 }
-# Item to find is a rflx relic 
+# Item to find is a bag of gold 
 def draw_board(screen):
     # Print the board and all game elements using curses
 
