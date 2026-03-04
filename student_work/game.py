@@ -33,4 +33,4 @@ def move_player(key):
     elif key == "d" and x < game_data['width'] - 1:
         new_x += 1
     else:
-        return  # Invalid key or move off board
+        return  
