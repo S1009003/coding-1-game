@@ -23,10 +23,10 @@ def draw_board(stdscr):
         for x in range(game_data['width']):
             # Player
             if x == game_data['player']['x'] and y == game_data['player']['y']:
-                row += game_data['turtle']
+                row += game_data['MENS_SYMBOL']
             # Eagle
             elif x == game_data['eagle_pos']['x'] and y == game_data['eagle_pos']['y']:
-                row += game_data['eagle_icon']
+                row += game_data['Black_up-pointing_double_triangle']
             # Obstacles
             elif any(o['x'] == x and o['y'] == y for o in game_data['obstacles']):
                 row += game_data['obstacle']
