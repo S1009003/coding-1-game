@@ -1,5 +1,7 @@
 # Write your game here
 import curses
+import time
+import random
 game_data = {
      'width': 5,
     'height': 5,
