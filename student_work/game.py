@@ -3,7 +3,7 @@ import curses
 import time
 import random
 game_data = {
-     'width': 5,
+    'width': 5,
     'height': 5,
     'player': {"x": 0, "y": 0, "score": 0},
      #icons
@@ -11,6 +11,7 @@ game_data = {
     'BLACK_MEDIUM_SQUARE': "\U000025FC",
     'BLACK_UP-POINTING_DOUBLE_TRIANGLE' : "\U000023EB",
     'MONEY_BAG' : "\U0001F4B0", #💰
+    'empty' : "  "
     
     #store curses here
 }
@@ -27,15 +28,15 @@ def draw_board(stdscr):
             # Player
             if x == game_data['player']['x'] and y == game_data['player']['y']:
                 row += game_data['MENS_SYMBOL']
-            # Triangle
-            elif x == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['x'] and y == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['y']:
-                row += game_data['Black_up-pointing_double_triangle']
-            # Obstacles
-            elif any(o['x'] == x and o['y'] == y for o in game_data['obstacles']):
-                row += game_data['obstacle']
-            # Collectibles
-            elif any(c['x'] == x and c['y'] == y and not c['collected'] for c in game_data['collectibles']):
-                row += game_data['leaf']
+            # # Triangle
+            # elif x == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['x'] and y == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['y']:
+            #     row += game_data['Black_up-pointing_double_triangle']
+            # # Obstacles
+            # elif any(o['x'] == x and o['y'] == y for o in game_data['obstacles']):
+            #     row += game_data['obstacle']
+            # # Collectibles
+            # elif any(c['x'] == x and c['y'] == y and not c['collected'] for c in game_data['collectibles']):
+            #     row += game_data['leaf']
             else:
                 row += game_data['empty']
         stdscr.addstr(y, 0, row, curses.color_pair(1))
