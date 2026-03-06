@@ -10,6 +10,7 @@ game_data = {
     'MENS_SYMBOL': "\U0001F6B9",
     'BLACK_MEDIUM_SQUARE': "\U000025FC",
     'BLACK_UP-POINTING_DOUBLE_TRIANGLE' : "\U000023EB",
+    'MONEY_BAG' : "\U0001F4B0", #💰
     
     #store curses here
 }
@@ -26,7 +27,7 @@ def draw_board(stdscr):
             # Player
             if x == game_data['player']['x'] and y == game_data['player']['y']:
                 row += game_data['MENS_SYMBOL']
-            # Enemy
+            # Triangle
             elif x == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['x'] and y == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['y']:
                 row += game_data['Black_up-pointing_double_triangle']
             # Obstacles
