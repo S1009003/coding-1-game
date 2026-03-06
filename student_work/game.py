@@ -26,7 +26,7 @@ def draw_board(stdscr):
             # Player
             if x == game_data['player']['x'] and y == game_data['player']['y']:
                 row += game_data['MENS_SYMBOL']
-            # Eagle
+            # Enemy
             elif x == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['x'] and y == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['y']:
                 row += game_data['Black_up-pointing_double_triangle']
             # Obstacles
