@@ -61,9 +61,9 @@ def move_player(key):
         new_y += 1
     elif key == "s" and y < game_data['height'] -1:
         new_y -= 1
-    elif key == "a" and x > game_data['width'] +1:
+    elif key == "a" and x > game_data['width'] -1:
         new_x += 1
-    elif key == "d" and x < game_data['width'] -1:
+    elif key == "d" and x < game_data['width'] +1:
         new_x -= 1
     else:
         return  
