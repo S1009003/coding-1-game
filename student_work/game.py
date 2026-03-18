@@ -32,7 +32,7 @@ def draw_board(stdscr):
             elif x == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['x'] and y == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['y']:
                  row += game_data['Black_up-pointing_double_triangle']['icon']
             # Obstacles
-            elif x == game_data['BLACK_MEDIUM_SQUARE']['x'] and y == game_data:
+            elif x == game_data['BLACK_MEDIUM_SQUARE']['x'] and y == game_data['BLACK_MEDIUM_SQUARE']['y']:
                  row += game_data['BLACK_MEDIUM_SQUARE']['icon']
             #any(o['x'] == x and o['y'] == y for o in game_data['BLACK_MEDIUM_SQUARE']):
                  row += game_data['BLACK_MEDIUM_SQUARE']['icon']
