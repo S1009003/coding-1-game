@@ -9,7 +9,7 @@ game_data = {
      #icons
     'MENS_SYMBOL': "\U0001F6B9",
     'BLACK_MEDIUM_SQUARE': "\U000025FC",
-    'BLACK_UP-POINTING_DOUBLE_TRIANGLE' : "\U000023EB",
+    'BLACK_UP-POINTING_DOUBLE_TRIANGLE' : {'icon': "\U000023EB", 'x': 0, 'y': 0},
     'MONEY_BAG' : "\U0001F4B0", #💰
     'empty' : "  "
     
