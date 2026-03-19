@@ -3,8 +3,8 @@ import curses
 import time
 import random
 game_data = {
-    'width': 5,
-    'height': 5,
+    'width': 20,
+    'height': 20,
     'player': {"x": 0, "y": 0, "score": 0},
      #icons
     'MENS_SYMBOL': {'icon': "\U0001F6B9", 'x': 0, 'y': 0},
