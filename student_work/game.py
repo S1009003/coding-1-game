@@ -3,16 +3,16 @@ import curses
 import time
 import random
 game_data = {
-    'width': 20,
-    'height': 20,
+    'width': 10,
+    'height': 10,
     'player': {"x": 0, "y": 0, "score": 0},
      #icons
     'MENS_SYMBOL': {'icon': "\U0001F6B9", 'x': 0, 'y': 0},
     'BLACK_MEDIUM_SQUARE': {'icon': "\U000025FC", 'x': 3, 'y': 3},
     'BLACK_UP-POINTING_DOUBLE_TRIANGLE' : {'icon': "\U000023EB", 'x': 1, 'y': 1},
     'MONEY_BAG' : {'icon': "\U0001F4B0", 'x': 2, 'y': 2}, #💰
-    'empty' : "  "
-    
+    'empty' : "  ",
+    'collected' : []
     #store curses here
 }
 # Item to find is a bag of gold 
@@ -30,15 +30,15 @@ def draw_board(stdscr):
                 row += game_data['MENS_SYMBOL']['icon']
             # Triangle
             elif x == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['x'] and y == game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['y']:
-                 row += game_data['Black_up-pointing_double_triangle']['icon']
+                 row += game_data['BLACK_UP-POINTING_DOUBLE_TRIANGLE']['icon']
             # Obstacles
             elif x == game_data['BLACK_MEDIUM_SQUARE']['x'] and y == game_data['BLACK_MEDIUM_SQUARE']['y']:
                  row += game_data['BLACK_MEDIUM_SQUARE']['icon']
             #any(o['x'] == x and o['y'] == y for o in game_data['BLACK_MEDIUM_SQUARE']):
                  row += game_data['BLACK_MEDIUM_SQUARE']['icon']
             # Collectibles
-            elif any(c['x'] == x and c['y'] == y and not c['collected'] for c in game_data['collectibles']):
-                 row += game_data['MONEY_BAG']
+            elif x == game_data['MONEY_BAG']['x'] and y == game_data['MONEY_BAG']['y']:
+                 row += game_data['MONEY_BAG']['icon']
             else:
                 row += game_data['empty']
         stdscr.addstr(y, 0, row, curses.color_pair(1))
