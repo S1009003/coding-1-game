@@ -71,6 +71,6 @@ def move_player(key):
         return  
 
     if any(o['x'] == new_x and o['y'] == new_y for o in game_data['obstacles']):
-        return 
+        return
     
     
