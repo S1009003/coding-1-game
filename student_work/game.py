@@ -5,10 +5,10 @@ game_data = {
     'width': 10,
     'height': 10,
     'player': {"x": 0, "y": 0, "score": 0},
-    'MENS_SYMBOL': {'icon': "P "},
-    'MONEY_BAG': {'icon': "$ ", 'x': 5, 'y': 5},
-    'OBSTACLE': {'icon': "X ", 'x': 3, 'y': 3},
-    'UP_TRIANGLE': {'icon': "^ ", 'x': 1, 'y': 1},
+    'MENS_SYMBOL': {'icon': "\U0001F977"},
+    'MONEY_BAG': {'icon': "\U0001F4B0 ", 'x': 5, 'y': 5},
+    'OBSTACLE': {'icon': "\U0001faa8", 'x': 3, 'y': 3},
+    'UP_TRIANGLE': {'icon': "\U0001F53A", 'x': 1, 'y': 1},
     'empty': ". ",
     'game_over': False
 }
