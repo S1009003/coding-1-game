@@ -3,7 +3,8 @@
 Due date: 3/6
 
 When you finish, add your video link here and submit one link to your project repository.
-[* [Playtesting Video (1 per group)]()
+[* [Playtesting Video (1 per group)]()  https://screencast.apps.chrome/14o5A01ZSh4bBZKF89OiEAGOE2QG1CpnQ?createdTime=2026-05-15T13%3A08%3A51.220Z https://new.express.adobe.com/id/urn:aaid:sc:VA6C2:38712f1a-c2a9-420e-a6f3-3b5fc3473689?invite=true&accept=true&preload=sharesheet&promoid=Z2G1FQKR&mv=other
+
 In this project, you will design and build a video game.  I recommend that you design a game like; snake, frogger, or pacman, but your game choice is up to you.  We will use github to manage our work and collaborate, and we will also use the curses library to enhance our terminal to simulate a video game console.  To get started, follow the link below to fork the project repository, be sure to take a look at the example project as well.
 
 #### [Please Fork this Repo to begin](https://github.com/rlj0713/coding-1-game/fork)
