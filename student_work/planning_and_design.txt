@@ -7,22 +7,22 @@ Part I: Planning & Design (15 pts)
 
 Game Idea:
 Video Game Ideas:
- Geometry dash 
- Pac man
+Geometry dash 
+Pac man
 frogger
- tetris
- Block blast
- Candy crush
- galaga
- Space invaders
- Minecraft
- Battle royale
- Brawl stars
- Fork knife
- overcooked
- Run 1-3
-  Duck life
- Papa’s pizzaria
+tetris
+Block blast
+Candy crush
+galaga
+Space invaders
+Minecraft
+Battle royale
+Brawl stars
+Fork knife
+overcooked
+Run 1-3
+Duck life
+Papa’s pizzaria
 Music type game
 Piano tiles
 Hytale
